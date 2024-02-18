@@ -1,0 +1,80 @@
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(56, 198, 89);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .balance {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .transactionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactionContent {
+    flex: 1;
+  }
+  
+  .transactionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .transactionAmount {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .transactionCategory {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .deleteButton {
+    padding: 8px 12px;
+    background-color: #e74c3c;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
+  .transactionTitleAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+  }
+  
+  .transactionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .transactionAmount {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .deleteButtonContainer {
+    margin-left: 10px; 
+  }
